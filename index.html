@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>ملحدو العرب | موسوعة حرة</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="auth">
+  <h1>ملحدو العرب</h1>
+  <p>موسوعة حرة للتاريخ والفلسفة والعلوم</p>
+  <button id="loginBtn">تسجيل الدخول عبر Google</button>
+</div>
+
+<div id="app" class="hidden">
+
+<header>
+  <h2>مرحباً <span id="username"></span></h2>
+  <button id="logoutBtn">تسجيل الخروج</button>
+</header>
+
+<section id="newPost">
+  <textarea id="postContent" placeholder="اكتب مقالة أو فكرة..."></textarea>
+  <button id="publishBtn">نشر</button>
+</section>
+
+<section id="posts"></section>
+
+<footer>
+  <p>© جميع الحقوق محفوظة | Mantorh</p>
+  <p>📧 <a href="mailto:revengee2919@gmail.com">revengee2919@gmail.com</a></p>
+  <p>📸 <a href="https://www.instagram.com/wacut_e?igsh=bHEyaTdhb3owYWdj" target="_blank">Instagram</a></p>
+</footer>
+
+</div>
+
+<script type="module" src="firebase.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
